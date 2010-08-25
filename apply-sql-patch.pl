@@ -38,7 +38,7 @@ my $result=GetOptions(
 	);
 
 sub printhelp(){
-    print qq {$0 -u <db_username>  -d <db_name> --patch <patch_file_name> [ --password <db_password> -h <db_shotname>  --force|-f ]\n};
+    print qq {$0 -u <db_username>  -d <db_name> --patch <patch_file_name> [ --password <db_password> -host <db_shotname>  --force|-f --help ]\n};
 }
 
 sub checkArgs(){

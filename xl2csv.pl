@@ -1,4 +1,10 @@
 #!/usr/bin/perl -w
+=pod
+This code is picked from 
+http://www.ibm.com/developerworks/linux/library/l-pexcel/index.html
+and modified a bit to suit new version of library 
+
+=cut
 
 use strict;
 use Spreadsheet::ParseExcel;
